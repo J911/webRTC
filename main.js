@@ -63,7 +63,7 @@ function sendAnswer(sdp){
 }
 
 function handlerClickHangUp(){
-
+    remoteVideo.srcObject = null;
 }
 
 function createAnswerError(e){
